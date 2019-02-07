@@ -14,7 +14,7 @@ export default createGlobalStyle`
   article, aside, canvas, details, embed,
   figure, figcaption, footer, header, hgroup,
   menu, nav, output, ruby, section, summary,
-  time, mark, audio, video {
+  time, mark, audio, video, :focus {
     margin: 0;
     padding: 0;
     border: 0;
@@ -70,7 +70,7 @@ export default createGlobalStyle`
   a {
     color: ${accent};
   }
-
+  
   pre {
     display: block;
     padding: 2rem;
@@ -90,5 +90,15 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+  }
+
+
+  /* 드래그 박스 : 검은 바탕색 + 흰색 글씨 */
+  *::selection { color:white; background:#000 !important; }
+  *::-moz-selection { color:white; background:#000 !important; } /* firefox */
+
+  &:hover,
+  &:focus {
+    color: black;
   }
 `;

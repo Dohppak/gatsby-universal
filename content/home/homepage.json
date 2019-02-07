@@ -4,16 +4,41 @@
   "gallery": [{
     "title": "React Context",
     "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/Sum1.png"
   },
   {
     "title": "Page Transitions",
     "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "image": "../images/gallery/Sum2.png"
   },
   {
     "title": "Intersection Observer",
     "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "image": "../images/gallery/Sum3.png"
+  },
+  {
+    "title": "Intersection Observer",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Sum4.png"
+  },
+  {
+    "title": "Intersection Observer",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Sum5.png"
+  },
+  {
+    "title": "Intersection Observer",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Sum6.png"
+  },
+  {
+    "title": "Intersection Observer",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Sum7.png"
+  },
+  {
+    "title": "Intersection Observer",
+    "copy": "Including a polyfill for Safari.",
+    "image": "../images/gallery/Sum8.png"
   }]
 }
